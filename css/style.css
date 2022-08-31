@@ -1,0 +1,129 @@
+/* common content */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.button {
+  text-align: center;
+  width: 196px;
+  height: 48px;
+  background-color: #cfc91d;
+  display: block;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 800;
+  color: #0b1016;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+.button:hover{
+      background-color: aliceblue;
+      color: #02918c;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar start */
+nav {
+  background-color: #02918c;
+}
+
+nav .logo {
+  width: 30%;
+}
+nav .menu {
+  width: 70%;
+}
+nav .menu ul {
+  text-align: right;
+}
+nav .menu ul li {
+  display: inline-block;
+}
+nav .menu ul li a {
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 26px 25px;
+  display: block;
+}
+
+nav .menu ul li:hover a{
+  color:#cfc91d;
+}
+/* Navbar ends */
+
+/* Banner Starts */
+
+#banner {
+  background-image: url(../image/banner.jpg);
+  background-color: rgba(0, 0, 0, 0.582);
+  background-blend-mode: multiply;
+  height: 730px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#banner .row {
+  height: 730px;
+}
+
+#banner .content {
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+#banner .content h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#banner .content h1 {
+  font-size: 68px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+#banner .content h1:hover {
+  color: #cfc91d;
+}
+
+#banner .content p {
+  font-size: 18px;
+  font-weight: 400;
+}
+#banner .content img {
+  margin: 50px 0;
+}
+/* Banner Ends*/
